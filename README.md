@@ -1,59 +1,88 @@
-🍽️ Restaurant Ordering & Kitchen Management System
-📌 Project Overview
+─────────────────────────────────────────────────────────────────────────────
+# PROJECT OVERVIEW: RESTAURANT MANAGEMENT SYSTEM
+─────────────────────────────────────────────────────────────────────────────
 
-This project is a restaurant ordering and processing system designed to manage a restaurant’s kitchen workflow and simulate how a real restaurant handles orders from start to finish.
+This project is a restaurant ordering and processing system.
+It manages a restaurant's kitchen workflow and simulates how
+a real restaurant handles orders from start to finish.
 
-In many restaurants, orders can get mixed up, delayed, or placed incorrectly, especially when there is no structured system in place. This project solves that problem by organizing menu items, customers, employees, and orders into a clear and controlled workflow. Orders are placed, added to a queue, prepared in order, and finalized with a receipt that includes totals and discounts.
+In many restaurants, orders can get mixed up, delayed, or placed
+incorrectly — especially without a structured system in place.
 
-The goal of this project is to demonstrate how Object-Oriented Programming (OOP) can be used to build a structured system that improves organization and minimizes mistakes in a restaurant environment.
+This system solves that problem by organizing:
 
-🚀 Key Features
+    • Menu Items
+    • Customers
+    • Employees
+    • Orders
+    • Kitchen Queue
 
-📋 Menu Item Management
+Orders are placed → added to a FIFO queue → prepared in order →
+and finalized with a receipt that includes totals and discounts.
 
-🧾 Order Creation & Processing
+The goal is to demonstrate how OBJECT-ORIENTED PROGRAMMING (OOP)
+can create a structured system that improves organization and
+minimizes mistakes in a restaurant environment.
 
-🍳 Kitchen FIFO Queue System
 
-👥 Employee Role Structure (Cashier, Cook, Manager)
+────────────────────────────────────────────────────────────────
+# SYSTEM FEATURES
+────────────────────────────────────────────────────────────────
 
-💰 Automatic Receipt Generation (Totals + Discounts)
+[✔] Menu Item Management
+[✔] Order Creation & Processing
+[✔] Kitchen FIFO Queue
+[✔] Employee Role Structure (Cashier | Cook | Manager)
+[✔] Automatic Receipt Generation (Totals + Discounts)
+[✔] Custom Exception Handling
+[✔] Java Collections & Generics Usage
 
-⚠️ Custom Exception Handling
 
-📚 Java Collections & Generics Integration
+────────────────────────────────────────────────────────────────
+# OOP CONCEPTS IMPLEMENTED
+────────────────────────────────────────────────────────────────
 
-🧠 OOP Concepts Implemented
+• Classes (5+ Core Classes)
+• Inheritance
+• Interfaces
+• Abstraction
+• Encapsulation
+• Method Overriding
+• Method Overloading
+• Custom Exceptions
+• Generics
+• Java Library Classes (Date, Random)
+• Java Collections (List, Map, Queue)
 
-✔ Classes (5+ Core Classes)
-✔ Inheritance
-✔ Interfaces
-✔ Abstraction
-✔ Encapsulation
-✔ Method Overriding
-✔ Method Overloading
-✔ Custom Exceptions
-✔ Generics
-✔ Java Library Classes (Date, Random)
-✔ Java Collections Framework (List, Map, Queue)
 
-🏗️ System Workflow
+────────────────────────────────────────────────────────────────
+# SYSTEM WORKFLOW
+────────────────────────────────────────────────────────────────
+
 Customer Places Order
-        ↓
+        │
+        ▼
 Order Added to Kitchen Queue (FIFO)
-        ↓
+        │
+        ▼
 Cook Prepares Order
-        ↓
+        │
+        ▼
 Order Completed
-        ↓
-Receipt Generated with Totals & Discounts
+        │
+        ▼
+Receipt Generated
 
-Orders move through defined stages: Created → Queued → Preparing → Completed
+────────────────────────────────────────────────────────────────
+# TECHNOLOGIES
+────────────────────────────────────────────────────────────────
 
-The kitchen processes orders using a First-In-First-Out (FIFO) queue.
-
-Employees have defined roles with different responsibilities.
-
-Receipts automatically calculate totals and apply discounts.
+Java
+Object-Oriented Programming
+Java Collections Framework
+GitHub Version Control
 
 UML diagrams are included in the /docs folder.
+
+────────────────────────────────────────────────────────────────
+
