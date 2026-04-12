@@ -85,4 +85,25 @@ GitHub Version Control
 UML diagrams are included in the /docs folder.
 
 ────────────────────────────────────────────────────────────────
+# TEAM CONTRIBUTION
+────────────────────────────────────────────────────────────────
 
+Sama Akbari — PM  
+- Helped organize the project and keep everyone on track  
+- Made sure tasks were completed on time  
+
+Amna Cheema — BA 
+- Helped plan the system and define how it should work  
+- Contributed to overall design and structure  
+
+Dia Khadgi — QA
+- Tested the program to make sure everything worked correctly  
+- Helped find and fix errors  
+
+Marah Lewis — Developer  
+- Worked on coding the main features  
+- Helped implement order processing logic  
+
+Abby Tariku — Developer  
+- Helped develop different parts of the system  
+- Assisted with connecting different features together  
